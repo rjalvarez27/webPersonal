@@ -9,11 +9,11 @@ import '../src/styles/index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
+    <BrowserRouter basename="/webpersonal">
+      <Routes >
         <Route path='/' element={<App />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contac' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
