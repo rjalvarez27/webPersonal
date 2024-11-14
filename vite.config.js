@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/webpersonal",
   plugins: [react()],
+  base: "https://rjalvarez27.github.io/webpersonal",
 })
