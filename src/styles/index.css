@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background: #111111;
+}
+
+@media screen and (max-width: 750px) {
+  * {
+      font-size: 13px;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  * {
+      font-size: 10px;
+  }
+
+}
